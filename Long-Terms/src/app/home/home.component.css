@@ -1,0 +1,33 @@
+app-header{
+
+    position: fixed;
+    width: 100%;
+    top : 5px;
+    height: 4rem;
+    z-index: 2;
+
+}
+main{
+    position: absolute;
+    width: 100%;
+    top : 4rem;
+    z-index: 1;
+}
+
+app-side-navbar{
+    position: absolute;
+    left:  0rem;
+    width: 250 px;
+    height: 400px;
+    box-shadow: 0px 0px 10px;
+    background-color: rgba(34, 34,34, 1);
+    border-top:  1px solid;
+
+}
+.Resi{
+    margin-bottom: 0%;
+}
+
+::ng-deep app-user-listing .user-listing-container > :not(.projected) {
+    display: none;
+  }

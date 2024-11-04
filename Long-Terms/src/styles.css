@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-mdc-form-field{
+    width: 100%;
+}
+.mat-button{
+    margin: 5px !important;
+}
+
+.a{
+    color: white !important;
+    /* padding: 1% !important; */
+}
+
+.content{
+    display: block !important;
+    padding: auto;
+}

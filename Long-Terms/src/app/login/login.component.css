@@ -1,0 +1,53 @@
+.Header{
+    margin-left: 25%;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    background-color: yellowgreen;
+    width: 50%;
+    
+}
+.mat-mdc-card-content:last-child {
+    padding-bottom: 16px;
+    margin-left: 25%;
+    width: 50%;
+    background-color: beige;
+    padding: 0px 0px;
+    
+}
+
+.Alig{
+    margin-left: 30%;
+
+}
+.mat-mdc-card {
+    background-color: antiquewhite;
+    width: 100%;
+}
+.mat-body, .mat-body-2, .mat-typography .mat-body, .mat-typography .mat-body-2, .mat-typography {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .0178571429em;
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    flex: 1 1 200px; /* Grow, shrink, and set base width */
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  /* Adjust layout for smaller screens */
+  @media (max-width: 768px) {
+    .box {
+      flex: 1 1 100%; /* Full width on small screens */
+    }
+  }

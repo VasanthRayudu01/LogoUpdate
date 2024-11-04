@@ -1,0 +1,60 @@
+{
+  "user": [
+    {},
+    {
+      "name": "Vasanth",
+      "userid": "Vasanth123",
+      "email": "vasanth@gmail.com",
+      "gender": "male",
+      "role": "Admin",
+      "id": "Vasanth123",
+      "password" : "Vasanth@123",
+      "isActive": true
+    },
+    {
+      "id": "19850",
+      "name": "Arun vijay",
+      "password": "Arun@123",
+      "email": "Arun@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Ashok123",
+      "name": "Ashok",
+      "password": "Ashok@123",
+      "email": "ashok@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "yogesh123",
+      "name": "yogesh",
+      "password": "yogest@123",
+      "email": "yogesh@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Adhya123",
+      "name": "Adhya",
+      "password": "Adhya@123",
+      "email": "adhya@gmail.com",
+      "gender": "female",
+      "role": "Admin",
+      "isActive": true
+    },
+    {
+      "id": "14324",
+      "name": "Maneesha",
+      "password": "Maneesha@123",
+      "email": "maneesha@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": false
+    }
+  ]
+}

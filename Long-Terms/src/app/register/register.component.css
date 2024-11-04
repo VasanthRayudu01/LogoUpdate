@@ -1,0 +1,25 @@
+.Header{
+    margin-left: 25%;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    background-color: yellowgreen;
+    width: 50%;
+    
+}
+.mat-mdc-card-content:last-child {
+    padding-bottom: 16px;
+    margin-left: 25%;
+    width: 50%;
+    background-color: beige;
+    padding: 0px 0px;
+
+}
+
+.Alig{
+    margin-left: 30%;
+}
+.mat-mdc-card {
+    background-color: antiquewhite;
+    width: 100%;
+}

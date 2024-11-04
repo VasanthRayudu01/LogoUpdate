@@ -1,0 +1,111 @@
+<i class="bi bi-back"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+  </svg>
+<div class="row" >
+
+    <div class="col-md-8"  [style.background-color]="selectedColor">
+
+<app-table-component [style.background-color]="selectedColor"[headArray]="headArray " [gridArray]="userList">
+
+</app-table-component>
+<button type="button"> Edit</button>
+
+    </div>
+</div>
+
+<div  [appBackgroundColor]="selectedColor2" hoverColor="lightgreen">
+    <form [formGroup] ="userform" (ngSubmit)="set">
+        <label for = "name">name</label>
+        <input type = "text" formControlName = "name">
+        <label for = "password">Password</label>
+        <input type = "password" formControlName = "password">
+      
+        <button type="button" (click)="set()">Submit</button>
+        
+       </form>
+
+</div>
+
+<div class="hastoshow">
+  <p> parent Data : {{value}}</p>
+
+  <button type=" button" (click)="incriment()">Send message</button>
+
+</div>
+
+<app-color-pick (colorSelected)="onColorSelected($event)"></app-color-pick>
+<div class="color-divs">
+  <div class="color-div" [style.background-color]="selectedColor">Div 1</div>
+  <div class="color-div" [style.background-color]="selectedColor">Div 2</div>
+  <div class="color-div" [style.background-color]="selectedColor">Div 3</div>
+</div>
+
+<div  >
+  <h1>Hover over the boxes to see the background color change</h1>
+  <div class="color-divs">
+    <div class="color-div" [appBackgroundColor]="selectedColor2" >Div 1</div>
+    <div class="color-div" [appBackgroundColor]="selectedColor2">Div 2</div>
+    <div class="color-div" [appBackgroundColor]="selectedColor2">Div 3</div>
+  </div>
+</div>
+<div [ngStyle]="styles" (click)="toggleActive()">
+  <p>pakkakelli aaduko</p>
+</div>
+<body>
+<app-sender class="left"></app-sender>
+<app-reciever class="right"></app-reciever>
+</body>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Divide with CSS Grid</title>
+  <style>
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 100vh;
+    }
+
+    .header {
+      grid-column: 1 / -1;
+      background-color: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left {
+      background-color: lightgreen;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .right {
+      background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer {
+      grid-column: 1 / -1;
+      background-color: lightgoldenrodyellow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Header</div>
+  <div class="left">Left</div>
+  <div class="right">Right</div>
+  <div class="footer">Footer</div>
+</body>
+</html>

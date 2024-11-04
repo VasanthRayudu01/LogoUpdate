@@ -1,0 +1,77 @@
+<div class="navbar navbar-expand navbar-dark bg-dark px-2">
+    <div class="side-nav-button p-2 me-3 text-Light">
+    <i class="fa-solid fa-list"></i>
+    </div>
+
+    <a class="navbar-brand px-4" href="#">Arm Span</a>
+
+    <div class="navbar-collapse">
+
+         <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+            Menu1
+            </a> 
+               <ul class="dropdown-menu dropdown-menu-dark">
+              <li class="dropdown-item"> item1</li>
+              <li class="dropdown-item"> item1</li>
+              <li class="dropdown-item"> item1</li>
+               </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+          Menu2
+          </a> 
+             <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="dropdown-item"> item1</li>
+            <li class="dropdown-item"> item1</li>
+            <li class="dropdown-item"> item1</li>
+             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+        Menu3
+        </a> 
+           <ul class="dropdown-menu dropdown-menu-dark">
+          <li class="dropdown-item"> item1</li>
+          <li class="dropdown-item"> item1</li>
+          <li class="dropdown-item"> item1</li>
+           </ul>
+        </li>
+        </ul> 
+    </div>
+
+    <!-- <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown link
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div> -->
+
+      <form class="d-flex me-5">
+     <input class="form-control me-2" type="search" placeholder="search">
+     <button class="btn btn-outline-light" type="submit"> Search</button>
+
+      </form>
+
+      <div class = "profile-logo dropstart">
+        <button class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown"> {{userData.name}}</button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a href = "/update" class="dropdown-item">User Details</a></li>
+        <li><a href = "/user" class="dropdown-item">Edit Users</a></li>
+
+        <li><a href = "#" class="dropdown-item">Save</a></li>
+
+        <li><a href = "/login"  class="dropdown-item">Logout</a></li>
+
+      </ul>
+      </div>
+
+    </div>
+
+    

@@ -1,0 +1,5 @@
+<p>color-pick works!</p>
+<div class="color-pick">
+<button  *ngFor="let color of colors" [style.background-color]="color" (click)="selectColor(color)"> {{color}}</button>
+
+</div>

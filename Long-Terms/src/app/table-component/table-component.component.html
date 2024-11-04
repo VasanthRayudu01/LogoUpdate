@@ -1,0 +1,31 @@
+<div class="row" >
+<div class="col-md-8">
+    <table class="table table-bordered table-hover">
+
+
+<tr>
+<th *ngFor="let head of headArray">{{head}}
+
+</th>
+
+
+
+</tr>
+<tbody >
+
+<tr *ngFor="let items of gridArray" >
+
+    <td [appBackgroundColor]="selectColor" hoverColor="orange"  *ngFor="let head of headArray" > {{items[head]}}
+
+    </td>
+    <td [appBackgroundColor]="selectColor" hoverColor="orange" >
+        <button type="button">edit</button>
+    </td>
+
+
+</tr>
+</tbody>
+
+    </table>
+</div>
+</div>
